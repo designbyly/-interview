@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .juzi,
+        .left,
+        .right,
+        .middle {
+            height: 66px;
+            margin-bottom: 5px;
+        }
+        
+        .left {
+            background: orange;
+        }
+        
+        .middle {
+            background: tomato;
+        }
+        
+        .right {
+            background: red;
+        }
+        
+        .juzi2 .middle-juzi {
+            width: 100%;
+            float: left;
+        }
+        
+        .juzi2 .middle {
+            margin: 0 132px 0 66px;
+        }
+        
+        .juzi2 .left {
+            width: 66px;
+            float: left;
+            margin-left: -100%;
+        }
+        
+        .juzi2 .right {
+            width: 132px;
+            float: left;
+            margin-left: -132px;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="juzi juzi2">
+        <p class="middle-juzi">
+            <p class="middle">中间橘子</p>
+        </p>
+        <p class="left">左边橘子</p>
+        <p class="right">右边橘子</p>
+    </p>
+</body>
+
+</html>

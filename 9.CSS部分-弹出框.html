@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .juzi {
+            height: 666px;
+            width: 100%;
+            font-size: 60px;
+            text-align: center;
+        }
+        
+        .all {
+            z-index: 555;
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: rgba(87, 32, 230, 0.2);
+        }
+        
+        .all .content {
+            min-height: 300px;
+            width: 600px;
+            background: rgb(85, 84, 84);
+            border-radius: 5px;
+            border: 1px solid #ebeef5;
+            box-shadow: 0 2px 12px 0 rgba(241, 13, 13, 0.1);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+
+<body>
+    <p class="juzi">
+        页面内容
+    </p>
+    <p class="all">
+        <p class="content">
+            弹出框(橘子温馨提示，向下滚动)
+        </p>
+    </p>
+</body>
+
+</html>

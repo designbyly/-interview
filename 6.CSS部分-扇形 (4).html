@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .juzi4 {
+            height: 66px;
+            width: 66px;
+            border-top-right-radius: 66px;
+            overflow: hidden;
+        }
+        
+        .juzi4::after {
+            content: '';
+            display: block;
+            height: 66px;
+            width: 66px;
+            background: tomato;
+            transform: skewY(-30deg);
+            transform-origin: left bottom;
+        }
+    </style>
+</head>
+
+<body>
+    <p style="display: flex; justify-content: space-around;">
+
+        <p class="juzi4"></p>
+
+    </p>
+</body>
+
+</html>

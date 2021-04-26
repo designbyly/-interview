@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .juzi {
+            height: 66px;
+            margin-bottom: 10px;
+        }
+        
+        .left {
+            background: orange;
+            height: 66px;
+        }
+        
+        .right {
+            background: burlywood;
+            height: 66px;
+        }
+        
+        .juzi2 {
+            display: flex;
+        }
+        
+        .juzi2 .left {
+            flex-grow: 0;
+            flex-shrink: 0;
+            flex-basis: 100px;
+        }
+        
+        .juzi2 .right {
+            flex: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p class="juzi juzi2">
+        <p class="left">大橘子</p>
+        <p class="right">小橘子</p>
+    </p>
+</body>
+
+</html>

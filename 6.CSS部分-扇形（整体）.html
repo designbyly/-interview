@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .juzi1 {
+            height: 0;
+            width: 0;
+            border: 66px solid;
+            border-radius: 50%;
+            border-color: turquoise tomato tan thistle;
+        }
+        
+        .juzi2 {
+            height: 66px;
+            width: 132px;
+            border-radius: 66px 66px 0 0;
+            overflow: hidden;
+        }
+        
+        .juzi2::after {
+            content: '';
+            display: block;
+            height: 0;
+            width: 0;
+            border-style: solid;
+            border-width: 66px 58px 0;
+            border-color: tomato transparent;
+            transform: translate(42px, 0);
+        }
+        
+        .juzi3 {
+            height: 66px;
+            width: 66px;
+            border-top-right-radius: 66px;
+            overflow: hidden;
+        }
+        
+        .juzi3::after {
+            content: '';
+            display: block;
+            height: 66px;
+            width: 66px;
+            background: tomato;
+            transform: rotateZ(-30deg);
+            transform-origin: left bottom;
+        }
+        
+        .juzi4 {
+            height: 66px;
+            width: 66px;
+            border-top-right-radius: 66px;
+            overflow: hidden;
+        }
+        
+        .juzi4::after {
+            content: '';
+            display: block;
+            height: 66px;
+            width: 66px;
+            background: tomato;
+            transform: skewY(-30deg);
+            transform-origin: left bottom;
+        }
+        
+        .juzi5 {
+            height: 132px;
+            width: 132px;
+            background: tomato;
+            border-radius: 50%;
+            background-image: linear-gradient(150deg, transparent 50%, #fff 50%), linear-gradient(90deg, #fff 50%, transparent 50%);
+        }
+    </style>
+</head>
+
+<body>
+    <p style="display: flex; justify-content: space-around;">
+        <p class="juzi1"></p>
+        <p class="juzi2"></p>
+        <p class="juzi3"></p>
+        <p class="juzi4"></p>
+        <p class="juzi5"></p>
+    </p>
+</body>
+
+</html>
