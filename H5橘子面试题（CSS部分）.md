@@ -68,4 +68,4 @@
 
 ![image-20210426160227768](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210426160227768.png)
 
-谢谢观看，橘子住院大家都会有一个好的前程！
+谢谢你耐心观看，加油！
